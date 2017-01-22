@@ -16,4 +16,7 @@ public interface RestService {
     @GET("api.php")
     Call<List<VideoInfoResDirector>> getVideoWithDirector(@Query("director") String director);
 
+//    @GET("api.php?title=attack%20on%20titan")
+@GET("api.php?director=Quentin%20Tarantino")
+Call<List<VideoInfoResDirector>> getVideoWithDirectorQuentin();
 }

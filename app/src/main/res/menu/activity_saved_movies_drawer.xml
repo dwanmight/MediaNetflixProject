@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_menu_saved_movies"
+            android:checkable="true"
+            android:title="@string/drawer_menu_item_saved_movies"/>
+        <item
+            android:id="@+id/drawer_menu_search_with_title"
+            android:title="@string/drawer_menu_item_search_with_title"/>
+        <item
+            android:id="@+id/drawer_menu_search_with_director"
+            android:title="@string/drawer_menu_search_item_with_director"/>
+    </group>
+
+</menu>

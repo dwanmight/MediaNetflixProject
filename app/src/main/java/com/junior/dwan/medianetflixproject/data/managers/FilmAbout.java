@@ -1,7 +1,6 @@
 package com.junior.dwan.medianetflixproject.data.managers;
 
 import android.media.Image;
-import android.net.Uri;
 import android.widget.ImageView;
 
 import java.util.UUID;

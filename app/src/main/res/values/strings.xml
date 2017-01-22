@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MediaNetflixProject</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_menu_item_saved_movies">Saved Movies</string>
+    <string name="drawer_menu_item_search_with_title">Search with title</string>
+    <string name="drawer_menu_search_item_with_director">Search with director</string>
+    <string name="nav_header_text_flix">FLIX</string>
+    <string name="nav_header_text_roulette">ROULETTE</string>
+    <string name="search_hint">HINT</string>
+    <string name="details_menu_back">Back</string>
+    <string name="details_menu_save">Save</string>
+
+    <string name="details_release">"Release: "</string>
+    <string name="details_rating">"Rating: "</string>
+    <string name="details_director">"Director: "</string>
+    <string name="details_summary">"Summary: "</string>
+</resources>

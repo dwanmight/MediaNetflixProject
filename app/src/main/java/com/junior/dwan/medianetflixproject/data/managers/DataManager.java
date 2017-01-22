@@ -22,6 +22,12 @@ public class DataManager {
         this.mPreferencesManager = new PreferencesManager();
         this.mRestService = ServiceGenerator.createService(RestService.class);
         mFilms=new ArrayList<FilmAbout>();
+//        for (int i = 0; i < 10; i++) {
+//            FilmAbout fa=new FilmAbout();
+//            fa.setDirector("Director="+i);
+//            fa.setTitle("Title="+i);
+//            mFilms.add(fa);
+//        }
     }
 
     public static DataManager getINSTANCE() {
@@ -31,6 +37,9 @@ public class DataManager {
         return INSTANCE;
     }
 
+    public PreferencesManager getPreferencesManager() {
+        return mPreferencesManager;
+    }
 
     //region=======Network=======
 
@@ -42,7 +51,9 @@ public class DataManager {
         return mRestService.getVideoWithDirector(director);
     }
 
-
+    public Call<List<VideoInfoResDirector>> getVideoWithDirectorQuen(){
+        return mRestService.getVideoWithDirectorQuentin();
+    }
 
     public ArrayList<FilmAbout> getFilms(){
         return mFilms;
